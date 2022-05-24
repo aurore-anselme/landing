@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Roboto:wght@300;400;500;700;900&display=swap");
+
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+@import url("components/sidebar.css");
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+	background-image: linear-gradient(-35deg, black, #fceb8c);
+}
+h1,H2,H3 {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+a {
+	text-decoration: none;
+	text-align: center;
+}
+a:hover {
+	color: darkgrey;
+}
+
+/* custom design with class (99% of your design) */
+
+.btn-blue:hover {
+	background-color: #darkgrey;
+	color: #darkgrey;
+	transition: color 0.3s ease;
+}
